@@ -22,7 +22,8 @@ Repositori Github per al projecte Intermodular de 2n SMX
 
 3. Posa-li un nom al teu projecte, per exemple: **"Gestió de tasques per al projecte X"**.
 
-4. Selecciona **Project board** (el tauler) que vols utilitzar: **"Kanban"** és el més comú (mètode visual i fàcil de seguir per a tasques).
+4. Selecciona **Project board** (el tauler) que vols utilitzar:  
+    - **"Kanban"** és el més comú (mètode visual i fàcil de seguir per a tasques).
 
    ---
 
@@ -55,7 +56,7 @@ Per crear o editar columnes:
 
 ### **Pas 2.2: Crear les tasques (Issues)**
 
-A **GitHub Projects**, cada tasca o unitat de treball es representa com un **"issue"** (*problema*) o **"task"** (*tasca*). Cada _issue_ contindrà la descripció de la tasca, el temps d'execució, els membres assignats i l'estat actual.
+A **GitHub Projects**, cada incidència/tasca o unitat de treball es representa com un **"issue"** (*incidència*) o **"task"** (*tasca*). Cada _issue_ contindrà la descripció de la tasca, el temps d'execució, els membres assignats i l'estat actual.
 
 #### Per crear un **issue**:
 
@@ -77,13 +78,13 @@ Així crearàs una tasca dins el repositori per a cada acció a realitzar.
 
 ---
 
-### **Pas 2.3: Afegir issues al tauler de Projectes**
+### **Pas 2.3: Afegir incidències/tasques al tauler de Projectes**
 
 1. Una vegada tingues el tauler creat, pots **afegir tasques** a les columnes.
 
 2. Hi ha dos possibilitats:
-   - Editant el issue, a la part dreta et permetrà seleccionar directament el **Project Board** i la **columna** (per exemple: **"Backlog"** o **"To Do"**).
-   - A l'esquerra de cada issue (des de la secció **Issues**), trobaràs una opció per **afegir-les al tauler de projectes**.
+   - Editant el _issue_, a la part dreta et permetrà seleccionar directament el **Project Board** i la **columna** (per exemple: **"Backlog"** o **"To Do"**).
+   - A l'esquerra de cada _issue_ (des de la secció **Issues**), trobaràs una opció per **afegir-les al tauler de projectes**.
 
 4. Quan crees un **Issue**, pots seleccionar directament el **Project Board** i la **columna** (per exemple: **"Backlog"** o **"To Do"**).
 
@@ -119,25 +120,40 @@ Les etiquetes ajuden a categoritzar les tasques per temes o prioritats.
 
 2. Dona-li un nom a l'etiqueta (per exemple, **"Urgent"**, **"Revisió"**, etc.) i selecciona un color per a la visualització.
 
-### **Pas 4.2: Afegir etiquetes als Issues**
+### **Pas 4.2: Afegir etiquetes a les incidències/tasques**
 
 Quan crees o edites un **issue**, pots afegir les etiquetes adequades a cada tasca per facilitar el seguiment de la prioritat i tipus de tasca.
 
 ---
+## **5. Utilitzar fites per gestionar el flux de treball**
 
-## **5. Fer seguiment del projecte**
+### **Pas 5.1: Crear fites (Milestones)**
 
-### **Pas 5.1: Controlar el progrés**
+Les fites ajuden a categoritzar les tasques per temes, prioritats o objectius marcant un plaç de finalització
+
+1. A la secció de **Issues**, fes clic a **Milestones** i selecciona **New Milestones**.
+
+2. Dona-li un nom a la fita (per exemple, **"Instal·lació física"**, **"Configuracio xarxa"**, etc.) i selecciona un color per a la visualització.
+
+### **Pas 5.2: Afegir fites a les incidències/tasques**
+
+Quan crees o edites un **issue**, pots afegir les fites/objectius adequats a cada tasca per facilitar el seguiment de la prioritat i tipus de tasca.
+
+---
+
+## *6. Fer seguiment del projecte**
+
+### **Pas 6.1: Controlar el progrés**
 
 GitHub ofereix visualitzacions per veure ràpidament l'estat del projecte. Pots veure els **Issues** oberts, en progrés, i finalitzats directament des de l'opció **Projects** del repositori.
 
-### **Pas 5.2: Informes i estadístiques**
+### **Pas 6.2: Informes i estadístiques**
 
 Per tenir una visió més detallada del progrés, pots utilitzar **milestones** per agrupar tasques relacionades amb un **objectiu** comú o per establir terminis.
 
 ---
 
-## **6. Comunicació i Feedback**
+## **7. Comunicació i Feedback**
 
 * **Comentaris a Issues**: Els membres poden deixar comentaris dins de cada **issue** per discutir tasques, plantejar dubtes o proporcionar feedback.
 
@@ -145,10 +161,10 @@ Per tenir una visió més detallada del progrés, pots utilitzar **milestones** 
 
   ---
 
-## **7. Recursos addicionals**
+## **8. Recursos addicionals**
 
-* **GitHub Docs**: Documentació oficial de GitHub Projects  
-* **GitHub Projects (nou)**: GitHub està millorant la funcionalitat de "Projects" amb noves eines, com les **"Automated workflows"** per a tasques repetitives.
+* **[GitHub Docs](https://docs.github.com/en)**: Documentació oficial de GitHub Projects  
+* **[GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects)**: GitHub està millorant la funcionalitat de "Projects" amb noves eines, com les **"Automated workflows"** per a tasques repetitives.
 
   ---
 
