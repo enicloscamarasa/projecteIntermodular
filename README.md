@@ -14,7 +14,7 @@ Repositori Github per al projecte Intermodular de 2n SMX
 
 4. Fes clic a **Create repository**.
 
-### **Pas 1.2: Habilitar GitHub Projects**
+### **Pas 1.2: Crear un projecte amb GitHub Projects**
 
 1. A la barra lateral del repositori, selecciona la pestanya **Projects**.
 
@@ -30,7 +30,8 @@ Repositori Github per al projecte Intermodular de 2n SMX
 
 ### **Pas 2.1: Definir les columnes**
 
-Un tauler de **Kanban** en GitHub es compon de **columnes**. Cada columna pot representar un **estat** del projecte o una **fase** de les tasques. Les columnes més comunes són:
+Un tauler de **Kanban** en GitHub es compon de **columnes**. Cada columna pot representar un **estat** del projecte o una **fase** de les tasques.  
+Les columnes més comunes són:
 
 * **Backlog**: Tasques per fer.
 
@@ -46,7 +47,7 @@ Per crear o editar columnes:
 
 1. Fes clic a **"Add column"** per crear una nova columna.
 
-2. Només escriu el nom de la columna (exemple: **"In Progress"**).
+2. Només escriu el nom de la columna (exemple: **"Testing/Review"**).
 
 3. Si vols, pots reorganitzar les columnes fent **drag and drop** (arrossegant-les).
 
@@ -54,9 +55,9 @@ Per crear o editar columnes:
 
 ### **Pas 2.2: Crear les tasques (Issues)**
 
-A **GitHub Projects**, cada tasca o unitat de treball es representa com un **"issue"** (*problema*) o **"task"** (*tasca*). Cada issue contindrà la descripció de la tasca, el temps d'execució, els membres assignats i l'estat actual.
+A **GitHub Projects**, cada tasca o unitat de treball es representa com un **"issue"** (*problema*) o **"task"** (*tasca*). Cada _issue_ contindrà la descripció de la tasca, el temps d'execució, els membres assignats i l'estat actual.
 
-Per crear un **issue**:
+#### Per crear un **issue**:
 
 1. A la barra lateral del projecte, fes clic a **"Issues"**.
 
@@ -64,7 +65,7 @@ Per crear un **issue**:
 
 3. Posa un títol clar a la tasca (ex: **"Disseny de la xarxa WiFi"**).
 
-4. Afegeix una **descripció detallada** de la tasca, com els passos a seguir o els objectius.
+4. Afegeix una **descripció detallada** de la tasca, com els passos a seguir o punts que inclou i el resultat de la tasca.
 
 5. Assigna un **membre del grup** a la tasca seleccionant-los a **Assignees**.
 
@@ -80,9 +81,11 @@ Així crearàs una tasca dins el repositori per a cada acció a realitzar.
 
 1. Una vegada tingues el tauler creat, pots **afegir tasques** a les columnes.
 
-2. A l'esquerra de cada issue (des de la secció **Issues**), trobaràs una opció per **afegir-les al tauler de projectes**.
+2. Hi ha dos possibilitats:
+   - Editant el issue, a la part dreta et permetrà seleccionar directament el **Project Board** i la **columna** (per exemple: **"Backlog"** o **"To Do"**).
+   - A l'esquerra de cada issue (des de la secció **Issues**), trobaràs una opció per **afegir-les al tauler de projectes**.
 
-3. Quan crees un **Issue**, pots seleccionar directament el **Project Board** i la **columna** (per exemple: **"Backlog"** o **"To Do"**).
+4. Quan crees un **Issue**, pots seleccionar directament el **Project Board** i la **columna** (per exemple: **"Backlog"** o **"To Do"**).
 
    ---
 
@@ -92,16 +95,16 @@ Així crearàs una tasca dins el repositori per a cada acció a realitzar.
 
 Quan crees o editis un **Issue**, pots assignar-lo a un membre del grup:
 
-1. A l'issue, fes clic a **Assignees**.
+1. Dubs de l'issue, fes clic a **Assignees**.
 
 2. Selecciona el membre de l'equip al qual vols assignar la tasca.
 
 ### **Pas 3.2: Seguiment de l'estat de la tasca**
 
-A mesura que els membres treballen en les tasques, poden moure els issues entre les diferents columnes per mostrar el **progrés**. Per exemple:
+A mesura que els membres treballen en les tasques, poden moure els issues entre les diferents columnes per mostrar el **progrés**. 
 
+Per exemple:  
 * Quan una tasca passa de la columna **To Do** a **In Progress**, el membre que l'assignat farà clic a **"Move to In Progress"**.
-
 * Quan es revisa o finalitza una tasca, la mou a **Review** o **Done**.
 
   ---
@@ -138,7 +141,7 @@ Per tenir una visió més detallada del progrés, pots utilitzar **milestones** 
 
 * **Comentaris a Issues**: Els membres poden deixar comentaris dins de cada **issue** per discutir tasques, plantejar dubtes o proporcionar feedback.
 
-* **Pull requests**: Quan un membre complet el seu treball, fa un **pull request** per fusionar els canvis, i els altres membres poden revisar-los i aprovar-los.
+* **Pull requests**: Quan un membre completa el seu treball, fa un **pull request** per fusionar els canvis, i els altres membres poden revisar-los i aprovar-los.
 
   ---
 
