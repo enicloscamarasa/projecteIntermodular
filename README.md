@@ -13,8 +13,12 @@ Repositori Github per al projecte Intermodular de 2n SMX
 3. Nom del repositori, visibilitat (públic o privat), i descripció.
 
 4. Fes clic a **Create repository**.
+   
+5. Dona-li un nom, per exemple _Projecte Intermodular 2smxA_
 
 ### **Pas 1.2: Crear un projecte amb GitHub Projects**
+
+Github Projects és una eina de gestió de tasques que permet organitzar, classificar i prioritzar les tasques d'un projecte relacionades en un repositori.
 
 1. A la barra lateral del repositori, selecciona la pestanya **Projects**.
 
@@ -57,6 +61,9 @@ Per crear o editar columnes:
 ### **Pas 2.2: Crear les tasques (Issues)**
 
 A **GitHub Projects**, cada incidència/tasca o unitat de treball es representa com un **"issue"** (*incidència*) o **"task"** (*tasca*). Cada _issue_ contindrà la descripció de la tasca, el temps d'execució, els membres assignats i l'estat actual.
+Les Incidències són una eina de creació i seguiment d'incidències relacionades amb un projecte.
+
+En aquest espai, també es permet la comunicació i la col·laboració entre els membres del projecte per a aportar informació sobre la incidència.
 
 #### Per crear un **issue**:
 
@@ -114,7 +121,7 @@ Per exemple:
 
 ### **Pas 4.1: Crear etiquetes (Labels)**
 
-Les etiquetes ajuden a categoritzar les tasques per temes o prioritats.
+Les etiquetes permeten categoritzar les incidències per a facilitar-ne la gestió.
 
 1. A la secció de **Issues**, fes clic a **Labels** i selecciona **New label**.
 
@@ -129,7 +136,16 @@ Quan crees o edites un **issue**, pots afegir les etiquetes adequades a cada tas
 
 ### **Pas 5.1: Crear fites (Milestones)**
 
-Les fites ajuden a categoritzar les tasques per temes, prioritats o objectius marcant un plaç de finalització
+Les fites permeten organitzar les incidències per complir un objectiu específic. Dón un mecanisme per organitzar **Incidències** dins d'un repositori. 
+
+S'utilitzen per **definir objectius específics en el desenvolupament del projecte**.
+
+Cada fita conté la següent informació:
+- Títol
+- Descripció
+- Data de venciment (Opcional)
+- Percentatge de progrés, calculat respecte de les incidències obertes i tancades.
+
 
 1. A la secció de **Issues**, fes clic a **Milestones** i selecciona **New Milestones**.
 
