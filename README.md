@@ -28,23 +28,23 @@ wifi-salut-implementation/
     └── resultats-proves.md
 ```
 
-## Elements del projecte
+## Elements del projecte a GITHUB Projects
 
-### Incidències (_Issues_)
+### 1. Incidències (_Issues_)
 Les **Incidències** són les tasques individuals del projecte. Són una eina de creació i seguiment de tasques relacionades amb un projecte.
 Cada incidència es representa com un **"issue"** i contindrà un conjunt variable d'elements com poden ser: la descripció de la tasca, el temps d'execució, els membres assignats i l'estat actual.
 
 Son configurables via camps editables (_custom fields_) visibles des de les propietats del projecte.
 
-### Etiquetes (_Labels_)
-Les etiquetes permeten categoritzar les incidències per a facilitar-ne la gestió.
+### 2. Etiquetes (_Labels_)
+Les etiquetes permeten categoritzar les incidències per a facilitar-ne la gestió. Les incidències poden classificar-se per diferents categories.
 
-### Fites (_Milestones_)
-Les fites permeten organitzar les incidències per complir un objectiu específic. Dón un mecanisme per organitzar **Incidències** dins d'un repositori. 
+### 3. Fites (_Milestones_)
+Les fites permeten organitzar les incidències per complir un objectiu específic. Són un mecanisme per organitzar **Incidències** dins d'un repositori. 
 
 S'utilitzen per **definir objectius específics en el desenvolupament del projecte**.
 
-Cada fita conté la següent informació:
+Cada **fita** conté la següent informació:
 - Títol
 - Descripció
 - Data de venciment (Opcional)
