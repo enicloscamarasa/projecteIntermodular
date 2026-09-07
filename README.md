@@ -8,9 +8,12 @@ Exemple de repositori Github per al projecte Intermodular de 2n SMX - WIFI SALUT
 wifi-salut-implementation/
 ├── README.md
 ├── docs/
-│   ├── memoria.md
-│   ├── planificacio.md
-│   └── manual-usuari.md
+│   ├── memoria/
+│   │   ├── memoria.md
+│   │   ├── planificacio.md
+│   │   ├── manual-usuari.md
+│   ├── presentacio/
+│   │   ├── presentacio.md
 ├── planols/
 │   ├── planta-baixa.pdf
 │   ├── planta-primera.pdf
